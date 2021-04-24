@@ -98,7 +98,7 @@ let bestTime = 0
 let lapTime = 0
 initTimeView()
 checkPoint = 0
-game.showLongText("Turn your car by \"A\" button.", DialogLayout.Bottom)
+game.showLongText("Player 1(Red): Turn your car by pressing A, Player 2(Blue): turn your car by pressing B.", DialogLayout.Bottom)
 startTime = game.runtime()
 game.onUpdate(function () {
     mySprite.vx = mySprite.vx * 0.97
